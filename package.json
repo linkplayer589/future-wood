@@ -1,0 +1,49 @@
+{
+  "name": "gatsby",
+  "version": "5.0.0",
+  "private": true,
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ],
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@hookform/resolvers": "^2.8.10",
+    "@mui/icons-material": "^5.8.2",
+    "@mui/material": "latest",
+    "@mui/styles": "^5.8.0",
+    "framer-motion": "^6.3.6",
+    "gatsby": "latest",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-google-analytics": "^4.15.0",
+    "gatsby-plugin-image": "^2.15.1",
+    "gatsby-plugin-manifest": "^4.15.1",
+    "gatsby-plugin-nprogress": "^4.15.0",
+    "gatsby-plugin-react-helmet": "latest",
+    "gatsby-plugin-sharp": "^4.15.1",
+    "gatsby-plugin-sitemap": "^5.15.1",
+    "gatsby-remark-embed-youtube": "^0.0.7",
+    "gatsby-remark-embedder": "^6.0.0",
+    "gatsby-source-filesystem": "^4.15.0",
+    "gatsby-source-hubspot-forms": "^3.0.1",
+    "gatsby-source-wordpress": "^6.15.1",
+    "gatsby-transformer-remark": "^5.15.1",
+    "gatsby-transformer-sharp": "^4.15.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet": "latest",
+    "react-hook-form": "^7.31.3",
+    "react-tooltip": "^4.2.21",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.2.2",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}
